@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+PXCT/reconstructed_projections.mat
+PXCT/tutorialPXCT_HERCULES.py
+PXCT/PXCTtomogram.npz
+PXCT/PXCTalignedprojections.npz
+PXCT/PXCTcorrprojections.npz

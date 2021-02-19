@@ -1,0 +1,16 @@
+ipykernel>=5.1.0
+ipython>=7.2.0
+ipython-genutils>=0.2.0
+jupyter>=1.0.0
+jupyter-client>=5.2.4
+jupyter-console>=6.0.0
+jupyter-core>=4.4.0
+jupyterlab>=0.35.4
+jupyterlab-server>=0.2.0
+matplotlib==3.0.2
+networkx>=2.2
+notebook>=6.0.1
+numpy>=1.16.0
+scikit-image>=0.14.2
+scipy>=1.2.0
+traitlets>=4.3.2
