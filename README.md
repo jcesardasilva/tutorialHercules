@@ -33,7 +33,7 @@ Throughout this tutorial, we will run some python scripts using Jupyter
 Notebook. You can either download the files from this Gitlab repository and copy them in 
 a folder of your choice or, if you prefer, you can clone it by typing:
 
-git clone https://github.com/jcesardasilva/tutorialcoherence.git
+git clone  https://github.com/jcesardasilva/tutorialHercules.git
 
 Once the files are in your computer, you can open Jupyter Notebook by:
 - Windows: click on the Jupyter Notebook icon installed in the start menu.
