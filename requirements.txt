@@ -7,10 +7,13 @@ jupyter-console>=6.0.0
 jupyter-core>=4.4.0
 jupyterlab>=0.35.4
 jupyterlab-server>=0.2.0
-matplotlib==3.0.2
+matplotlib>=3.3.4
 networkx>=2.2
 notebook>=6.0.1
 numpy>=1.16.0
 scikit-image>=0.14.2
 scipy>=1.2.0
 traitlets>=4.3.2
+pyopencl>=2021.1.2
+ipympl>=0.7.0
+git+https://github.com/jcesardasilva/toupy.git@hercules
