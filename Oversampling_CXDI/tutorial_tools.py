@@ -206,7 +206,7 @@ def moltrans(mol, H, K, L):
     lim = np.ceil(maxSzMb*2**20/(8*nrAtoms))
 
     # initializing arrays
-    F = np.zeros((1,nrCrds)).astype(np.complex)
+    F = np.zeros((1,nrCrds)).astype(complex)
 
     # raveling
     H = H.ravel()
@@ -215,7 +215,7 @@ def moltrans(mol, H, K, L):
 
     ii=0
     while ii<nrCrds:
-        idx = np.arange(ii,np.min((ii+lim-1,nrCrds))).astype(np.int)
+        idx = np.arange(ii,np.min((ii+lim-1,nrCrds))).astype(int)
         ii += lim
         f = scatteringfactor(mol['element'],H[idx], K[idx],L[idx])
         f = f*debyewallerfactor(mol['IDP'],H[idx], K[idx],L[idx])

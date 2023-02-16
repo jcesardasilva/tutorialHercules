@@ -1,3 +1,7 @@
+.DS_Store
+*/__pycache__/
+*.png
+*.npz
 .ipynb_checkpoints/
 PXCT/reconstructed_projections.mat
 PXCT/tutorialPXCT_HERCULES.py
