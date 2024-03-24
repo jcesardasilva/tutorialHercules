@@ -67,7 +67,7 @@ def drawmol(mol, backgroundColor = 'k'):
 
     # preparing the canvas
     plt.close('all')
-    plt.ion()
+    #plt.ion()
     fig = plt.figure(1,figsize =(8,8))
     ax = fig.add_subplot(1,1,1,projection='3d')
     ax.view_init(altitude,azimuth)
@@ -122,7 +122,7 @@ def drawmol(mol, backgroundColor = 'k'):
     else:
         print('Background color not implement yet. Using black')
         ax.set_facecolor((0,0,0))
-    xmin, xmax, ymin, ymax = ax.axis()
+    xmin, xmax, ymin, ymax, _, _ = ax.axis()
     zmin = 0.8*np.min((xmin, ymin))
     zmax = 0.8*np.max((xmax,ymax))
     ax.set_xlabel('x [Angstrom]',fontsize = 14)
